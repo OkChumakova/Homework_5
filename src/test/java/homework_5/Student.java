@@ -7,7 +7,6 @@ public class Student implements Comparable <Student> {
     private String surname;
     private Integer course;
     private Integer studentAge;
-    static ArrayList<Student> listOfStudents;
 
     public Student(String surname, int course, int studentAge) {
         this.surname = surname;
@@ -73,4 +72,5 @@ public class Student implements Comparable <Student> {
     public void setStudentAge(Integer studentAge) {
         this.studentAge = studentAge;
     }
+
 }
